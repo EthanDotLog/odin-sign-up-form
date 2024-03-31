@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign-up Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <p>Fill my form</p>
+    <nav>
+      <a href="www.google.com" target="_blank">Link 1</a>
+      <a href="www.google.com" target="_blank">Link 2</a>
+      <a href="www.google.com" target="_blank">Link 3</a>
+    </nav>
+  </header>
+  <main>
+    <section id="hero">
+      <div id="hero-content">
+        <img src="./assets/odin-lined.png" alt="The Odin Project Logo">
+        <h1>Odin</h1>
+      </div>
+      <div>
+        <p>Photo by &nbsp; <a href="https://pixabay.com/users/lucent_designs_dinoson20-1455439/" target="_blank">Lucent Designs dinoson20</a></p>
+      </div>
+      </section>
+    <section id="form-section">
+      <h2>
+        This is not a real online service! You know you need something like
+        this in your life to help you realize your deepest dreams. Sign up
+        <em>now</em> to get started.
+        <br>
+        <br>
+        You <em>know</em> you want to.
+      </h2>
+      <form action="" id="form">
+        <fieldset>
+          <legend>Let's do this!</legend>
+          <div class="form-control">
+            <label for="first-name">First Name</label>
+            <input type="text" name="first-name" id="first-name" required />
+            <span>warning will go here</span>
+          </div>
+          <div class="form-control">
+            <label for="last-name">Last Name</label>
+            <input type="text" name="last-name" id="last-name" required />
+            <span>warning will go here</span>
+          </div>
+          <div class="form-control">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" required />
+            <span>warning will go here</span>
+          </div>
+          <div class="form-control">
+            <label for="phone">Phone Number</label>
+            <input type="tel" name="phone" id="phone" required />
+            <span>warning will go here</span>
+          </div>
+          <div class="form-control">
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" required />
+            <span>warning will go here</span>
+          </div>
+          <div class="form-control">
+            <label for="confirm-password">Confirm Password</label>
+            <input type="password" name="confirm-password" id="confirm-password" required />
+            <span>warning will go here</span>
+          </div>
+        </fieldset>
+        <button type="submit">Submit</button>
+        <p>Already have an account? <a href="www.google.com" target="_blank">Log in</a></p>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p>no copyright</p>
+  </footer>
+  
+  <script src="script.js"></script>
+</body>
+</html>
